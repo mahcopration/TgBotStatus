@@ -21,8 +21,8 @@ try:
     LIST_HOSTS = config("HOSTS")
     CHANNEL_ID = config("CHANNEL_ID", cast=int)
     MESSAGE_ID = config("MESSAGE_ID", cast=int)
-    CHANNEL_NAME = config("CHANNEL_NAME", default="FZX Paradox")
-    TIME_ZONE = config("TIME_ZONE", default="Asia/Kolkata")
+    CHANNEL_NAME = config("CHANNEL_NAME", default="Mahsoom")
+    TIME_ZONE = config("TIME_ZONE", default="Asia/Colombo")
 except BaseException as ex:
     log.info(ex)
     exit(1)
